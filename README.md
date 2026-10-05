@@ -257,3 +257,6 @@ before reloading nginx. See [nginx WebSocket proxying](https://nginx.org/en/docs
 
 ### Rebranded Dashboard
 ![Dashboard](public/dashboard-screenshot.png)
+
+### Unlock Lightning Wallet
+![Unlock Modal](public/unlock-screenshot.png)
