@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router";
 
 const navLinkClasses = "text-white opacity-80";
-const navLinkActiveClasses = "text-yellow-500 opacity-100";
+const navLinkActiveClasses = "text-accent opacity-100";
 const createClassName = ({ isActive }: { isActive: boolean }) =>
   `${navLinkClasses} ${isActive ? navLinkActiveClasses : ""}`;
 const navIconClasses = "w-8 h-8 mx-auto";

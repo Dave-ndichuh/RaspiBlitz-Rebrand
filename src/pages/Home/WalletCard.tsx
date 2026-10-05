@@ -61,7 +61,7 @@ export const WalletCard: FC<Props> = ({ onReceive, onSend, onOpenChannel, onClos
     <div className="h-full">
       <div className="bd-card h-full transition-colors">
         <section className="flex flex-col flex-wrap p-2 text-black lg:flex-row">
-          <div className="relative w-full overflow-hidden rounded-xl bg-yellow-600 bg-linear-to-b from-yellow-500 p-4 text-white">
+          <div className="relative w-full overflow-hidden rounded-xl bg-accent-900 bg-linear-to-b from-accent p-4 text-white">
             <article className="flex w-full flex-col">
               <Headline as="h6" align="left">
                 {t("wallet.balance")}

@@ -249,3 +249,11 @@ before reloading nginx. See [nginx WebSocket proxying](https://nginx.org/en/docs
 - Alby Logo from [Alby media repo](https://github.com/getAlby/media)
   - License unclear
 
+
+## Previews
+
+### Login Screen
+![Login Screen](public/login-screenshot.png)
+
+### Rebranded Dashboard
+![Dashboard](public/dashboard-screenshot.png)
