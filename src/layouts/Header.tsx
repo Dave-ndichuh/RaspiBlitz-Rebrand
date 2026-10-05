@@ -1,8 +1,9 @@
-import { BitcoinCircleIcon, SatoshiV1Icon } from "@bitcoin-design/bitcoin-icons-react/filled";
+import { BitcoinCircleIcon } from "@bitcoin-design/bitcoin-icons-react/filled";
 import {
   ArrowRightStartOnRectangleIcon,
   Bars3Icon,
   BookOpenIcon,
+  CpuChipIcon,
 } from "@heroicons/react/24/outline";
 import { Dropdown } from "@heroui/react";
 import { type Key, useContext } from "react";
@@ -42,7 +43,7 @@ export default function Header() {
       <div className="flex items-center">
         <Dropdown>
           <Dropdown.Trigger>
-            <Bars3Icon className="h-8 w-8 cursor-pointer hover:text-yellow-400" />
+            <Bars3Icon className="h-8 w-8 cursor-pointer hover:text-accent" />
           </Dropdown.Trigger>
 
           <Dropdown.Popover placement="bottom end">
@@ -55,7 +56,7 @@ export default function Header() {
                   {unitActive ? (
                     <BitcoinCircleIcon className="inline h-4 w-4" />
                   ) : (
-                    <SatoshiV1Icon className="inline h-4 w-4" />
+                    <CpuChipIcon className="inline h-4 w-4" />
                   )}
                   {unitActive ? t("navigation.display_btc") : t("navigation.display_sats")}
                 </span>

@@ -28,7 +28,7 @@ export interface AppContextType {
 
 export enum Unit {
   BTC = "BTC",
-  SAT = "SAT",
+  SAT = "NodeBits",
 }
 
 export const appContextDefault: AppContextType = {

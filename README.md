@@ -1,3 +1,13 @@
+# DePIN NodeNet Wallet (RaspiBlitz Fork)
+
+This repository is a customized fork of the open-source RaspiBlitz Web Interface, modified to serve as the frontend for a DePIN (Decentralized Physical Infrastructure Network) Lightning node. 
+
+This project was built to demonstrate a rapid "Phase 1" wallet integration. Key modifications to the upstream repository include:
+- **Brand Identity**: Complete theming overhaul from the default RaspiBlitz yellow to a custom DePIN Neon Green aesthetic via Tailwind CSS. 
+- **Custom Unit Logic**: Refactored the core formatting logic and contextual states to seamlessly replace the base "Satoshi" unit with a custom branded "NodeBits" unit across the entire dashboard.
+- **UI/UX Consistency**: Asset replacement (SVGs, Icons) and rigorous testing to ensure the new custom UI remains perfectly responsive.
+
+---
 <h1 align="center">Raspiblitz Web - a responsive Web UI for the RaspiBlitz</h1>
 
 ![Raspiblitz Dashboard](preview.png)
@@ -238,3 +248,4 @@ before reloading nginx. See [nginx WebSocket proxying](https://nginx.org/en/docs
   - [Blockstream Corporate Brand Guideline](https://blockstream.com/brand-assets/)
 - Alby Logo from [Alby media repo](https://github.com/getAlby/media)
   - License unclear
+
